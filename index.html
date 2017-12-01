@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kurs WWW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="menu">
+            <a href="#" id="red">Czerwony</a>
+            <a href="#" id="black">Czarny</a>
+            <a href="#" id="brown">Brązowy</a>
+        </div>
+
+        <form>
+            <div class="input-group">
+                <label for="account">nr konta</label>
+                <input type="text" id="account">
+            </div>
+            <div class="input-group">
+                <label for="pesel">PESEL</label>
+                <input type="text" id="pesel">
+            </div>
+            <div class="input-group">
+                <label for="date">data urodzenia</label>
+                <input type="text" id="date" placeholder="dd-mm-rrrr">
+            </div>
+            <div class="input-group">
+                <label for="email">email</label>
+                <input type="email" id="email">
+            </div>
+                <input class="btn" type="submit">
+        </form>
+    </div>
+
+    <section id="game-section">
+        <div id="game">
+            <div class="timer"></div>
+        </div>
+        <div class="tab"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

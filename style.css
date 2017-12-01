@@ -1,0 +1,110 @@
+#menu {
+    border: 3px solid blue;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 20px;
+}
+
+form {
+    margin-top: 30px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input-group > input{
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid #777;
+}
+
+.input-group {
+    display: block;
+    margin: 10px;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+}
+
+small {
+    color: red;
+}
+
+#game {
+    position: relative;
+    padding: 50px 0;
+    border: 1px solid;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.kwadrat-a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #213a29;
+    margin: 20px;
+}
+
+.timer {
+    font-size: 20px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 25px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.kwadrat {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+}
+
+.new-game {
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    display: block;
+}
+
+#game-section {
+    position: relative;
+    margin: 0 auto;
+}
+
+.tab {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid;
+}
+
+.game-over {
+    font-size: 200%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: #141111;
+    opacity: 0.7;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px #000;
+}
